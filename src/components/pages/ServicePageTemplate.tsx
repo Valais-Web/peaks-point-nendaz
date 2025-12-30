@@ -103,6 +103,19 @@ export const ServicePageTemplate = ({ lang, seo, hero, content }: ServicePageTem
                   </div>
                 ))}
 
+                {/* SEO Text Block */}
+                <div className="bg-accent/5 border-l-4 border-accent rounded-r-lg p-6 my-8">
+                  <h3 className="text-xl font-heading text-foreground mb-4">
+                    {lang === 'fr' ? `Votre expert en ${seo.keyword}` : `Your expert in ${seo.keyword}`}
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    {lang === 'fr' 
+                      ? `Peaks Point est votre partenaire de confiance pour ${seo.keyword}. Notre équipe locale, basée à Nendaz au cœur du Valais, comprend les spécificités du marché alpin et vous accompagne avec un service sur mesure. De la commercialisation à la maintenance, en passant par la gestion des voyageurs et l'entretien régulier, nous assurons une prise en charge complète de votre bien immobilier.`
+                      : `Peaks Point is your trusted partner for ${seo.keyword}. Our local team, based in Nendaz in the heart of Valais, understands the specifics of the alpine market and supports you with a tailored service. From marketing to maintenance, guest management and regular upkeep, we ensure complete care for your property.`
+                    }
+                  </p>
+                </div>
+
                 {/* Benefits List */}
                 <div className="bg-secondary/50 rounded-lg p-8 my-8">
                   <h3 className="text-xl font-heading text-foreground mb-6">
