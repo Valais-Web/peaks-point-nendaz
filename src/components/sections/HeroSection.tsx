@@ -9,16 +9,17 @@ interface HeroSectionProps {
   description: string;
   ctaText: string;
   ctaLink: string;
+  imageAlt?: string;
 }
 
-export const HeroSection = ({ title, subtitle, description, ctaText, ctaLink }: HeroSectionProps) => {
+export const HeroSection = ({ title, subtitle, description, ctaText, ctaLink, imageAlt }: HeroSectionProps) => {
   return (
     <section className="relative min-h-[90vh] flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
           src={heroWinter}
-          alt="Luxury chalet in Nendaz with mountain view"
+          alt={imageAlt || "Luxury chalet in Nendaz with mountain view"}
           className="w-full h-full object-cover"
         />
         <div 
