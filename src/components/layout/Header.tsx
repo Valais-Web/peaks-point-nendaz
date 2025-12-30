@@ -74,6 +74,13 @@ export const Header = ({ lang }: HeaderProps) => {
               </DropdownMenuContent>
             </DropdownMenu>
 
+            <Link 
+              to={`/${lang}/contact`}
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Contact
+            </Link>
+
             <div className="flex items-center gap-4">
               <Link 
                 to={getCurrentAlternateRoute()}
@@ -83,7 +90,7 @@ export const Header = ({ lang }: HeaderProps) => {
               </Link>
               
               <Button variant="default" size="sm" asChild>
-                <Link to={`/${lang}#contact`}>
+                <Link to={`/${lang}/contact`}>
                   {t.hero.cta}
                 </Link>
               </Button>
@@ -126,6 +133,14 @@ export const Header = ({ lang }: HeaderProps) => {
                 ))}
               </div>
 
+              <Link 
+                to={`/${lang}/contact`}
+                className="text-base font-medium text-foreground"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Contact
+              </Link>
+
               <div className="flex items-center gap-4 pt-4 border-t border-border">
                 <Link 
                   to={getCurrentAlternateRoute()}
@@ -136,7 +151,7 @@ export const Header = ({ lang }: HeaderProps) => {
                 </Link>
                 
                 <Button variant="default" size="sm" asChild className="flex-1">
-                  <Link to={`/${lang}#contact`} onClick={() => setMobileMenuOpen(false)}>
+                  <Link to={`/${lang}/contact`} onClick={() => setMobileMenuOpen(false)}>
                     {t.hero.cta}
                   </Link>
                 </Button>

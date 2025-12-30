@@ -16,6 +16,7 @@ import ResidenceSecondaireNendaz from "./pages/fr/ResidenceSecondaireNendaz";
 import AgenceLocationNendaz from "./pages/fr/AgenceLocationNendaz";
 import ImmeubleLocatifValais from "./pages/fr/ImmeubleLocatifValais";
 import AgenceGestionLocativeNendaz from "./pages/fr/AgenceGestionLocativeNendaz";
+import ContactFr from "./pages/fr/ContactFr";
 
 // English pages
 import HomeEn from "./pages/en/HomeEn";
@@ -28,6 +29,7 @@ import HolidayRentalNendaz from "./pages/en/HolidayRentalNendaz";
 import ChaletRentalNendaz from "./pages/en/ChaletRentalNendaz";
 import SecondHomeNendaz from "./pages/en/SecondHomeNendaz";
 import AirbnbConciergeNendaz from "./pages/en/AirbnbConciergeNendaz";
+import ContactEn from "./pages/en/ContactEn";
 
 import NotFound from "./pages/NotFound";
 
@@ -55,6 +57,7 @@ const App = () => (
             <Route path="/fr/agence-location-nendaz" element={<AgenceLocationNendaz />} />
             <Route path="/fr/gestion-immeuble-locatif-valais" element={<ImmeubleLocatifValais />} />
             <Route path="/fr/agence-gestion-locative-nendaz" element={<AgenceGestionLocativeNendaz />} />
+            <Route path="/fr/contact" element={<ContactFr />} />
             
             {/* English Routes */}
             <Route path="/en" element={<HomeEn />} />
@@ -67,6 +70,7 @@ const App = () => (
             <Route path="/en/chalet-rental-nendaz" element={<ChaletRentalNendaz />} />
             <Route path="/en/second-home-management-nendaz" element={<SecondHomeNendaz />} />
             <Route path="/en/airbnb-concierge-nendaz" element={<AirbnbConciergeNendaz />} />
+            <Route path="/en/contact" element={<ContactEn />} />
             
             <Route path="*" element={<NotFound />} />
           </Routes>
