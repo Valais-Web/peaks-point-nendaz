@@ -42,7 +42,7 @@ export const Footer = ({ lang }: FooterProps) => {
                     to={route.path}
                     className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                   >
-                    {route.keyword}
+                    {route.name}
                   </Link>
                 </li>
               ))}
@@ -64,11 +64,11 @@ export const Footer = ({ lang }: FooterProps) => {
               </li>
               <li>
                 <a 
-                  href="tel:+41000000000"
+                  href="tel:+41275521300"
                   className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                 >
                   <Phone className="h-4 w-4" />
-                  +41 00 000 00 00
+                  +41 27 552 13 00
                 </a>
               </li>
             </ul>

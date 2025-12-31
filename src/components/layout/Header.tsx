@@ -35,7 +35,7 @@ export const Header = ({ lang }: HeaderProps) => {
     return otherRoutes[index]?.path || `/${otherLang}`;
   };
 
-  const serviceRoutes = routes.slice(1, 6);
+  const serviceRoutes = routes.slice(1);
   
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
@@ -67,7 +67,7 @@ export const Header = ({ lang }: HeaderProps) => {
                 {serviceRoutes.map((route) => (
                   <DropdownMenuItem key={route.path} asChild>
                     <Link to={route.path} className="w-full cursor-pointer">
-                      {route.keyword}
+                      {route.name}
                     </Link>
                   </DropdownMenuItem>
                 ))}
@@ -128,7 +128,7 @@ export const Header = ({ lang }: HeaderProps) => {
                     className="block pl-4 py-1 text-sm text-foreground hover:text-primary"
                     onClick={() => setMobileMenuOpen(false)}
                   >
-                    {route.keyword}
+                    {route.name}
                   </Link>
                 ))}
               </div>

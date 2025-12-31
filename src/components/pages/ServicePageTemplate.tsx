@@ -5,7 +5,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Home, Users, Sparkles, Wrench, FileText, Shield, TrendingUp, MapPin, Calendar, Key, CheckCircle } from 'lucide-react';
 import { Language, getTranslation } from '@/lib/i18n';
-import heroSummer from '@/assets/hero-summer.jpg';
+import heroServices from '@/assets/hero-services.png';
 import interiorImage from '@/assets/interior-living.jpg';
 
 interface ServicePageTemplateProps {
@@ -58,7 +58,7 @@ export const ServicePageTemplate = ({ lang, seo, hero, content }: ServicePageTem
       <section className="relative min-h-[60vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src={heroSummer}
+            src={heroServices}
             alt={`${seo.keyword} - Peaks Point`}
             className="w-full h-full object-cover"
           />
@@ -148,10 +148,10 @@ export const ServicePageTemplate = ({ lang, seo, hero, content }: ServicePageTem
                     }
                   </p>
                   <Button variant="hero" className="w-full" asChild>
-                    <a href="mailto:contact@peakspoint.ch">
+                    <Link to={`/${lang}/contact`}>
                       {t.cta.button}
                       <ArrowRight className="h-4 w-4 ml-2" />
-                    </a>
+                    </Link>
                   </Button>
                 </div>
 
@@ -189,10 +189,10 @@ export const ServicePageTemplate = ({ lang, seo, hero, content }: ServicePageTem
             {t.cta.description}
           </p>
           <Button variant="hero" size="xl" asChild>
-            <a href="mailto:contact@peakspoint.ch" className="group">
+            <Link to={`/${lang}/contact`} className="group">
               {t.cta.button}
               <ArrowRight className="h-5 w-5 ml-2 transition-transform group-hover:translate-x-1" />
-            </a>
+            </Link>
           </Button>
         </div>
       </section>
