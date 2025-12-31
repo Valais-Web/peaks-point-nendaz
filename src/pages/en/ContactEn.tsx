@@ -137,9 +137,9 @@ const ContactEn = () => {
                   </p>
                 </div>
               ) : (
-                <form
+              <form
                   ref={formRef}
-                  name="contact"
+                  name="contact-en"
                   method="POST"
                   action="/"
                   data-netlify="true"
@@ -147,7 +147,7 @@ const ContactEn = () => {
                   onSubmit={handleSubmit}
                   className="space-y-6"
                 >
-                  <input type="hidden" name="form-name" value="contact" />
+                  <input type="hidden" name="form-name" value="contact-en" />
 
                   {/* Honeypot - off-screen, not display:none */}
                   <div className="absolute -left-[9999px] top-0" aria-hidden="true">
