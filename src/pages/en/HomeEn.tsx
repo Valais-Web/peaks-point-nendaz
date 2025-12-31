@@ -27,7 +27,7 @@ const HomeEn = () => {
         subtitle="Peaks Point"
         description="Your local partner for complete property management. We handle everything for your Valais property: rentals, maintenance, concierge services. Optimised revenue, guaranteed peace of mind."
         ctaText={t.hero.cta}
-        ctaLink="/en#contact"
+        ctaLink="/en/contact"
         imageAlt={`${keyword} - Luxury chalet with Swiss Alps mountain view`}
       />
       
