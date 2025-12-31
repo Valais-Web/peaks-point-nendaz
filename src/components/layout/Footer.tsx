@@ -42,7 +42,7 @@ export const Footer = ({ lang }: FooterProps) => {
                     to={route.path}
                     className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                   >
-                    {route.keyword}
+                    {route.name}
                   </Link>
                 </li>
               ))}

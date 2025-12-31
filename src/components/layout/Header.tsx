@@ -67,7 +67,7 @@ export const Header = ({ lang }: HeaderProps) => {
                 {serviceRoutes.map((route) => (
                   <DropdownMenuItem key={route.path} asChild>
                     <Link to={route.path} className="w-full cursor-pointer">
-                      {route.keyword}
+                      {route.name}
                     </Link>
                   </DropdownMenuItem>
                 ))}
@@ -128,7 +128,7 @@ export const Header = ({ lang }: HeaderProps) => {
                     className="block pl-4 py-1 text-sm text-foreground hover:text-primary"
                     onClick={() => setMobileMenuOpen(false)}
                   >
-                    {route.keyword}
+                    {route.name}
                   </Link>
                 ))}
               </div>
