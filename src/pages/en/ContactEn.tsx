@@ -68,7 +68,7 @@ const ContactEn = () => {
       const formDataObj = new FormData(form);
       const urlEncodedData = new URLSearchParams(formDataObj as unknown as Record<string, string>).toString();
 
-      const response = await fetch("/?no-cache=1", {
+      const response = await fetch("/", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
