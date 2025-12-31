@@ -20,7 +20,7 @@ export const HeroSection = ({ title, subtitle, description, ctaText, ctaLink, im
         <img
           src={heroChalet}
           alt={imageAlt || "Luxury chalet in Nendaz with mountain view"}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-[center_65%]"
         />
         <div 
           className="absolute inset-0"
