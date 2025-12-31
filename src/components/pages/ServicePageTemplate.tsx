@@ -148,10 +148,10 @@ export const ServicePageTemplate = ({ lang, seo, hero, content }: ServicePageTem
                     }
                   </p>
                   <Button variant="hero" className="w-full" asChild>
-                    <a href="mailto:contact@peakspoint.ch">
+                    <Link to={`/${lang}/contact`}>
                       {t.cta.button}
                       <ArrowRight className="h-4 w-4 ml-2" />
-                    </a>
+                    </Link>
                   </Button>
                 </div>
 
@@ -189,10 +189,10 @@ export const ServicePageTemplate = ({ lang, seo, hero, content }: ServicePageTem
             {t.cta.description}
           </p>
           <Button variant="hero" size="xl" asChild>
-            <a href="mailto:contact@peakspoint.ch" className="group">
+            <Link to={`/${lang}/contact`} className="group">
               {t.cta.button}
               <ArrowRight className="h-5 w-5 ml-2 transition-transform group-hover:translate-x-1" />
-            </a>
+            </Link>
           </Button>
         </div>
       </section>

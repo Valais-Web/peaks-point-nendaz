@@ -18,10 +18,10 @@ export const CTASection = ({ lang }: CTASectionProps) => {
           {t.cta.description}
         </p>
         <Button variant="hero" size="xl" asChild>
-          <a href="mailto:contact@peakspoint.ch" className="group">
+          <Link to={`/${lang}/contact`} className="group">
             {t.cta.button}
             <ArrowRight className="h-5 w-5 ml-2 transition-transform group-hover:translate-x-1" />
-          </a>
+          </Link>
         </Button>
       </div>
     </section>

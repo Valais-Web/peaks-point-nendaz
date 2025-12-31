@@ -27,7 +27,7 @@ const HomeFr = () => {
         subtitle="Peaks Point"
         description="Votre partenaire local pour une gestion immobilière complète. Nous prenons en charge l'intégralité de votre bien en Valais : location, entretien, conciergerie. Revenus optimisés, tranquillité garantie."
         ctaText={t.hero.cta}
-        ctaLink="/fr#contact"
+        ctaLink="/fr/contact"
         imageAlt={`${keyword} - Chalet de luxe avec vue sur les Alpes valaisannes`}
       />
       
