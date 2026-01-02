@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- French Pages -->
+  <url>
+    <loc>https://peakspoint.ch/fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/fr/gestion-location-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/gestion-location-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/short-term-rental-management-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/fr/gestion-airbnb-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/gestion-airbnb-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/airbnb-management-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/fr/conciergerie-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/conciergerie-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/airbnb-concierge-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/fr/location-chalet-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/location-chalet-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/holiday-rental-management-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/fr/gestion-chalet-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/gestion-chalet-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/chalet-management-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/fr/gestion-residence-secondaire-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/gestion-residence-secondaire-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/second-home-management-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/fr/agence-location-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/agence-location-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/chalet-rental-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/fr/gestion-immeuble-locatif-valais</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/gestion-immeuble-locatif-valais"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/fr/agence-gestion-locative-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/agence-gestion-locative-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/fr/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- English Pages -->
+  <url>
+    <loc>https://peakspoint.ch/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/en/airbnb-management-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/airbnb-management-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/gestion-airbnb-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/en/short-term-rental-management-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/short-term-rental-management-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/gestion-location-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/en/chalet-management-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/chalet-management-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/gestion-chalet-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/en/concierge-service-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/concierge-service-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/en/luxury-chalet-management-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/luxury-chalet-management-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/gestion-chalet-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/en/holiday-rental-management-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/holiday-rental-management-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/location-chalet-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/en/chalet-rental-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/chalet-rental-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/agence-location-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/en/second-home-management-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/second-home-management-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/gestion-residence-secondaire-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/en/airbnb-concierge-nendaz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/airbnb-concierge-nendaz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/conciergerie-nendaz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://peakspoint.ch/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://peakspoint.ch/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://peakspoint.ch/fr/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
