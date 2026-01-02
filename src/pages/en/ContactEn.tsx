@@ -66,9 +66,13 @@ const ContactEn = () => {
       if (honeypot) honeypot.value = "";
 
       const formDataObj = new FormData(form);
+      
+      // Ensure form-name is included for Netlify
+      formDataObj.set("form-name", "contact-en");
+      
       const urlEncodedData = new URLSearchParams(formDataObj as unknown as Record<string, string>).toString();
 
-      const response = await fetch("/", {
+      const response = await fetch("/en/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
@@ -141,7 +145,7 @@ const ContactEn = () => {
                   ref={formRef}
                   name="contact-en"
                   method="POST"
-                  action="/"
+                  action="/en/contact"
                   data-netlify="true"
                   netlify-honeypot="bot-field"
                   onSubmit={handleSubmit}
