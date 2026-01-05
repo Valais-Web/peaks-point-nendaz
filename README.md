@@ -1,73 +1,14 @@
-# Welcome to your Lovable project
 
-## Project info
+# Peaks Point
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL**: https://peakspoint.com
 
-## How can I edit this code?
+**Peaks Point** is a premium, locally based property management brand focused on Nendaz and the Valais Alps.
 
-There are several ways of editing your application.
+The project represents the foundation of a modern, owner-first approach to property management, combining local presence, full delegation, and performance-driven rental strategies. Peaks Point is designed for property owners who want to generate income from their assets without dealing with the operational burden of day-to-day management.
 
-**Use Lovable**
+The company provides end-to-end services covering short-term rentals, long-term rentals, chalet management, concierge services, and homecare. Every property is managed with a clear objective: protect the asset, optimise annual revenue, and remove all friction for the owner.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This repository contains the initial version of the Peaks Point website, built to establish a professional online presence, communicate the brand’s positioning, and begin ranking locally for owner-focused property management services in Nendaz. The website is bilingual (French and English) and structured around clarity, trust, and proximity rather than marketing hype.
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Peaks Point positions itself as a long-term partner for property owners, acting as a single point of contact and a trusted steward for real estate assets in an alpine environment with strong seasonality. The emphasis is on sustainable performance, transparency, and peace of mind.
