@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { MapPin, Mail, Phone } from 'lucide-react';
 import { Language, getTranslation } from '@/lib/i18n';
 import { frenchRoutes, englishRoutes } from '@/lib/routes';
+import ValaisWebLogo from '@/assets/white-valais-web-blanc.png';
 
 interface FooterProps {
   lang: Language;
@@ -11,7 +12,7 @@ export const Footer = ({ lang }: FooterProps) => {
   const t = getTranslation(lang);
   const routes = lang === 'fr' ? frenchRoutes : englishRoutes;
   const otherLang = lang === 'fr' ? 'en' : 'fr';
-  
+
   const currentYear = new Date().getFullYear();
 
   return (
@@ -38,7 +39,7 @@ export const Footer = ({ lang }: FooterProps) => {
             <ul className="space-y-3">
               {routes.slice(1, 6).map((route) => (
                 <li key={route.path}>
-                  <Link 
+                  <Link
                     to={route.path}
                     className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                   >
@@ -54,7 +55,7 @@ export const Footer = ({ lang }: FooterProps) => {
             <h4 className="font-heading text-lg font-medium mb-4">{t.footer.contact}</h4>
             <ul className="space-y-3">
               <li>
-                <a 
+                <a
                   href="mailto:contact@peakspoint.ch"
                   className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                 >
@@ -63,7 +64,7 @@ export const Footer = ({ lang }: FooterProps) => {
                 </a>
               </li>
               <li>
-                <a 
+                <a
                   href="tel:+41275521300"
                   className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                 >
@@ -72,10 +73,10 @@ export const Footer = ({ lang }: FooterProps) => {
                 </a>
               </li>
             </ul>
-            
+
             {/* Language Switch */}
             <div className="mt-6 pt-6 border-t border-primary-foreground/20">
-              <Link 
+              <Link
                 to={`/${otherLang}`}
                 className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
               >
@@ -90,6 +91,20 @@ export const Footer = ({ lang }: FooterProps) => {
           <p className="text-sm text-primary-foreground/60">
             © {currentYear} Peaks Point. {t.footer.rights}
           </p>
+          {/* Valais Web backlink */}
+          <a
+            href="https://valaisweb.ch"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-xs md:text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+          >
+            <span>Website built and managed by</span>
+            <img
+              src={ValaisWebLogo}
+              alt="Valais Web"
+              className="h-4 w-auto"
+            />
+          </a>
           <div className="flex items-center gap-6 text-sm text-primary-foreground/60">
             <Link to={`/${lang}`} className="hover:text-primary-foreground transition-colors">
               FR
